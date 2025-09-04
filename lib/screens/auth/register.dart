@@ -5,10 +5,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:quick_bite/screens/constants/validate.dart';
-import 'package:quick_bite/screens/models/user_model.dart';
-import 'package:quick_bite/screens/services/image_function.dart';
-import 'package:quick_bite/screens/widgets/social_media_icons.dart';
+import '../../constants/constants/validate.dart';
+import '../../models/user_model.dart';
+import '../../services/image_function.dart';
+import '../../widgets/social_media_icons.dart';
 
 class Register extends StatefulWidget {
   static const routeName = '/register';

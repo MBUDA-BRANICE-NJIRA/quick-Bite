@@ -3,10 +3,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:quick_bite/screens/admin/admin_root.dart';
 import 'package:quick_bite/screens/auth/register.dart';
-import 'package:quick_bite/screens/constants/validate.dart';
-import 'package:quick_bite/screens/models/user_model.dart';
-import 'package:quick_bite/screens/user/userdarshboar.dart';
-import 'package:quick_bite/screens/widgets/social_media_icons.dart';
+import '../../constants/constants/validate.dart';
+import '../../models/user_model.dart';
+import '../user/userdarshboar.dart';
+import '../../widgets/social_media_icons.dart';
 
 class LoginScreen extends StatefulWidget {
   static const routeName = '/login'; // Changed to lowercase for consistency

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quick_bite/screens/constants/app_colors.dart';
+import 'app_colors.dart';
 
 class Styles {
   static ThemeData themeData({
@@ -7,7 +7,7 @@ class Styles {
     required BuildContext context,
   }) {
     return ThemeData(
-      useMaterial3: true, 
+      useMaterial3: true,
       colorScheme: ColorScheme.fromSeed(
         seedColor: isDarkTheme ? AppColors.darkPrimary : AppColors.lightPrimary,
         brightness: isDarkTheme ? Brightness.dark : Brightness.light,

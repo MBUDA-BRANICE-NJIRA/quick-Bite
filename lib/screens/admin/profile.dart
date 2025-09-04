@@ -15,7 +15,7 @@ class ProfileScreen extends StatefulWidget {
 class _ProfileScreenState extends State<ProfileScreen> {
   final User? user = FirebaseAuth.instance.currentUser;
   XFile? _profileImage;
-  bool _isUploading = false;
+  final bool _isUploading = false;
 
   @override
   Widget build(BuildContext context) {

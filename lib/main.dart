@@ -2,15 +2,15 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:quick_bite/firebase_options.dart';
-import 'package:quick_bite/screens/admin/admin_root.dart';
-import 'package:quick_bite/screens/admin/admindashboard.dart';
-import 'package:quick_bite/screens/admin/orders.dart';
-import 'package:quick_bite/screens/auth/login.dart';
-import 'package:quick_bite/screens/auth/register.dart';
-import 'package:quick_bite/screens/constants/theme_data.dart';
-import 'package:quick_bite/screens/provider/theme_provider.dart';
-import 'package:quick_bite/screens/user/userdarshboar.dart';
+import 'firebase_options.dart';
+import 'screens/admin/admin_root.dart';
+import 'screens/admin/admindashboard.dart';
+import 'screens/admin/orders.dart';
+import 'screens/auth/login.dart';
+import 'screens/auth/register.dart';
+import 'constants/constants/theme_data.dart';
+import 'provider/theme_provider.dart';
+import 'screens/user/userdarshboar.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:quick_bite/screens/widgets/title_widget.dart';
+import '../../widgets/title_widget.dart';
 
 class AdminHomeScreen extends StatelessWidget {
-    static const routeName = '/Admindashboard';
+  static const routeName = '/Admindashboard';
   const AdminHomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar( title: SubtitleTextWidget(label: 'Dashboard'),),
-        
+      appBar: AppBar(title: SubtitleTextWidget(label: 'Dashboard')),
     );
   }
 }
